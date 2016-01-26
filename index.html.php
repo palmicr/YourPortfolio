@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>YourPortfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -49,11 +49,11 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Welcome</strong></h2>
+								<h2 class="alt">Welcome To YourPortfolio.com</strong></h2>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Portfolio</a>
+								<a href="#portfolio" class="button scrolly">Demo</a>
 							</footer>
 
 						</div>
@@ -67,10 +67,7 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>INSERT TEXT HERE.</p>
 
 							<div class="row">
 								<div class="4u 12u$(mobile)">
@@ -127,7 +124,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; YourPortfolio </li><li> Pálmi C Rúnarsson </li>
 					</ul>
 
 			</div>
