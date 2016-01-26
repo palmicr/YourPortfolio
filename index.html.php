@@ -49,7 +49,8 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Welcome To YourPortfolio.com</strong></h2>
+								<h2 class="alt">Welcome To YourPortfolio</strong></h2>
+								<p> The Online Photo Album for Artist, Students and The Average Worker</p>
 							</header>
 
 							<footer>

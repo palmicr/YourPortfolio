@@ -1897,7 +1897,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #008ae6;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1915,7 +1915,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #33adff;
 		}
 
 		input[type="button"]:active,
@@ -1923,7 +1923,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: #005c99;
 		}
 
 /* Item */
@@ -2064,7 +2064,7 @@
 			#nav ul li a span:before {
 				position: absolute;
 				left: 0;
-				color: #41484c;
+				color: #008ae6;
 				text-align: center;
 				width: 1.25em;
 				line-height: 1.75em;
@@ -2077,7 +2077,7 @@
 		}
 
 			#nav ul li a.active span:before {
-				color: #e27689;
+				color: #005c99;
 			}
 
 /* Footer */
