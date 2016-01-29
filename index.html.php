@@ -19,8 +19,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Pálmi C Rúnarsson</h1>
-							<p>VSF2A3U</p>
+							<h1 id="title">YourPortfolio</h1>
 						</div>
 
 					<!-- Nav -->
