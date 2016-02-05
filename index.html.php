@@ -74,7 +74,7 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/snu1.jpg" alt="" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3>A Quiet Night</h3>
 										</header>
 									</article>
 								</div>
@@ -83,7 +83,7 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/snu2.jpg" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<h3>Cold Morning</h3>
 										</header>
 									</article>
 								</div>
@@ -92,7 +92,7 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/snu3.jpg" alt="" /></a>
 										<header>
-											<h3>Magna Nullam</h3>
+											<h3>Misteries of the Night</h3>
 										</header>
 									</article>
 								</div>
@@ -101,7 +101,7 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/sunrise1.jpg" alt="" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3>Dreamland</h3>
 										</header>
 									</article>
 								</div>
@@ -110,16 +110,16 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/sunrise2.jpg" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<h3>Bespin Cloud City</h3>
 										</header>
 									</article>
 								</div>
-								
+
 								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/sunrise3.jpg" alt="" /></a>
 										<header>
-											<h3>Magna Nullam</h3>
+											<h3>Fantasia</h3>
 										</header>
 									</article>
 								</div>

@@ -10,6 +10,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2130,8 +2131,19 @@
 				color: rgba(255, 255, 255, 0.75);
 			}
 
-				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+				#main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
+
+				}
+
+				#main > section.dark p, #main > section.dark h2{
+
+					color: white;
+					text-shadow:
+					-0.4px -0.4px 0 #000,
+					0.4px -0.4px 0 #000,
+					-0.4px -0.4px 0 #000,
+					0.4px -0.4px 0 #000;
 				}
 
 				#main > section.dark strong {
@@ -2156,7 +2168,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/nuBanner4.jpg");
 			}
 
 			#main > section.two {
