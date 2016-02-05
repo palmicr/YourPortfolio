@@ -77,6 +77,8 @@
 											<h3>Ipsum Feugiat</h3>
 										</header>
 									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/snu2.jpg" alt="" /></a>
 										<header>
