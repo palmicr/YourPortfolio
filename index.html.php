@@ -120,15 +120,9 @@
 			</div>
 
 		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; YourPortfolio </li><li> Pálmi C Rúnarsson </li>
-					</ul>
-
-			</div>
-
+			<?php 
+				include "php/footer.php";
+			 ?>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
