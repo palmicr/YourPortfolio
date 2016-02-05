@@ -78,6 +78,7 @@
 										</header>
 									</article>
 								</div>
+
 								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/snu2.jpg" alt="" /></a>
@@ -86,6 +87,7 @@
 										</header>
 									</article>
 								</div>
+
 								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/snu3.jpg" alt="" /></a>
@@ -94,30 +96,34 @@
 										</header>
 									</article>
 								</div>
+
 								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/sunrise1.jpg" alt="" /></a>
 										<header>
-											<h3>Natoque Vitae</h3>
+											<h3>Ipsum Feugiat</h3>
 										</header>
 									</article>
 								</div>
-								<div class="4u$ 12u$(mobile)">
+
+								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/sunrise2.jpg" alt="" /></a>
 										<header>
-											<h3>Dolor Penatibus</h3>
+											<h3>Rhoncus Semper</h3>
 										</header>
 									</article>
 								</div>
+								
 								<div class="4u 12u$(mobile)">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/sunrise3.jpg" alt="" /></a>
 										<header>
-											<h3>Orci Convallis</h3>
+											<h3>Magna Nullam</h3>
 										</header>
 									</article>
 								</div>
+
 							</div>
 
 						</div>
