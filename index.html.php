@@ -33,9 +33,7 @@
 				</div>
 
 				<div class="bottom">
-
-
-
+					
 				</div>
 
 			</div>
@@ -44,7 +42,7 @@
 			<div id="main">
 
 				<!-- Home -->
-					<section id="top" class="one dark cover">
+					<section id="top" class="one dark cover" style='background-image: url('<?php include "php/randimg.php" ?>')'>
 						<div class="container">
 
 							<header>
@@ -53,7 +51,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Demo</a>
+								<a href="#portfolio" class="button scrolly">▼</a>
 							</footer>
 
 						</div>
@@ -67,7 +65,9 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>INSERT TEXT HERE.</p>
+							<p>Mike is a student in Stanford Community College.
+								He wants to be a graphics designer at his very own GFX studio.
+								Be like Mike</p>
 
 							<div class="row">
 								<div class="4u 12u$(mobile)">
