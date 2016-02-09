@@ -42,7 +42,7 @@
 			<div id="main">
 
 				<!-- Home -->
-					<section id="top" class="one dark cover" style='background-image: url('<?php include "php/randimg.php" ?>')'>
+					<section id="top" class="one dark cover" style='background-image: url("images/nuBanner2.jpg")'>
 						<div class="container">
 
 							<header>
