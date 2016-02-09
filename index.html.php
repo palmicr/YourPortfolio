@@ -27,7 +27,7 @@
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#four" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sign In/Out</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Sign In/Out</span></a></li>
 
 							</ul>
 						</nav>
@@ -131,9 +131,7 @@
 						</div>
 					</section>
 
-			</div>
-
-			<!-- Contact -->
+					<!-- Contact -->
 					<section id="contact" class="four">
 						<div class="container">
 
@@ -150,8 +148,10 @@
 						</div>
 					</section>
 
+
 			</div>
 
+			
 		<!-- Footer -->
 			<?php 
 				include "php/footer.php";
