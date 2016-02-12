@@ -1892,6 +1892,7 @@
 	input[type="reset"],
 	button,
 	.button {
+		margin-top: 10px;
 		position: relative;
 		display: inline-block;
 		border-radius: 0.35em;

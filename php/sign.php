@@ -1,18 +1,32 @@
 <?php
 
-echo '<section id="contact" class="four">
+echo '<section id="login" class="four">
 						<div class="container">
 
 							<header>
-								<h2>Sign In / Sign Up</h2>
+								<h2>Login</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<form name="login" action="checklogin.php" method="post" accept-charset="utf-8">
+				
+							<ul>
+								<li>
+									<label for="usermail">Email</label>
+									<input type="email" name="usermail" required>
+								</li>
+								<li>
+									<label for="password">Password</label>
+									<input type="password" name="password" required></li>
+								
+							</ul>
 
-							
+							<input type="submit" value="Login">
+							</form>
+
+						<form action="Register.php">
+							<input type="submit" value="Dont Have an Account? Register!">
+						</form>
+
 						</div>
 					</section>';
 
