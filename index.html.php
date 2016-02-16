@@ -28,7 +28,6 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#login" id="login-link" class="skel-layers-ignoreHref"><span class="icon fa-unlock-alt">Sign In</span></a></li>
-
 							</ul>
 						</nav>
 
@@ -143,6 +142,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src='https://www.google.com/recaptcha/api.js'></script>
 	</body>
 </html>

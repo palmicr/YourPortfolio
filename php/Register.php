@@ -59,6 +59,8 @@
 									<input type="password" name="password" required></li>
 								</li>
 							</ul>
+							<div class="g-recaptcha" data-sitekey="6LfpbxgTAAAAAIWRy8__wKTkt4Ai0YcZ8kx8iHi1"></div>
+
 									<input type="submit" value="Register">
 
 						</form>
@@ -75,3 +77,6 @@
 			<?php 
 				include "footer.php";
 			 ?>
+
+			 <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
