@@ -1547,7 +1547,7 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Verdana', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -2140,11 +2140,6 @@
 				#main > section.dark p, #main > section.dark h2{
 
 					color: white;
-					text-shadow:
-					-0.4px -0.4px 0 #000,
-					0.4px -0.4px 0 #000,
-					-0.4px -0.4px 0 #000,
-					0.4px -0.4px 0 #000;
 				}
 
 				#main > section.dark strong {

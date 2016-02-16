@@ -1,6 +1,4 @@
-<?php
-
-echo '<section id="login" class="four">
+<section id="login" class="four">
 						<div class="container">
 
 							<header>
@@ -21,14 +19,11 @@ echo '<section id="login" class="four">
 							</ul>
 
 							<input type="submit" value="Login">
-							</form>
+						</form>
 
-						<form action="Register.php">
+						<form action="php/Register.php">
 							<input type="submit" value="Dont Have an Account? Register!">
 						</form>
 
 						</div>
-					</section>';
-
-
-?>
+					</section>

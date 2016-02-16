@@ -1,6 +1,4 @@
-<?php
-
-echo '<div class="container">
+<div class="container">
 
 							<header>
 								<h2 class="alt">Welcome To YourPortfolio</strong></h2>
@@ -11,6 +9,4 @@ echo '<div class="container">
 								<a href="#portfolio" class="button scrolly">▼</a>
 							</footer>
 
-						</div>';
-
-?>
+</div>

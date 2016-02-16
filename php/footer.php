@@ -1,11 +1,11 @@
 <?php
 	$thisYear = date('Y');
-	echo '<div id="footer">
+  ?>	
+<div id="footer">
 
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; YourPortfolio </li> '. $thisYear .'<li> Pálmi C Rúnarsson </li>
-					</ul>
+		<!-- Copyright -->
+	<ul class="copyright">
+		<li>&copy; YourPortfolio </li> <?php echo $thisYear ?><li> Pálmi C Rúnarsson </li>
+	</ul>
 
-			</div>'
-  ?>
+</div>
