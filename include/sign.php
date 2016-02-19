@@ -5,7 +5,7 @@
 								<h2>Login</h2>
 							</header>
 
-							<form name="login" action="checklogin.php" method="post" accept-charset="utf-8">
+							<form name="login" action="" method="post" accept-charset="utf-8">
 				
 							<ul>
 								<li>
@@ -24,7 +24,7 @@
 							<input type="submit" value="Login">
 						</form>
 
-						<form action="php/Register.php">
+						<form action="include/Register.php">
 							<input type="submit" value="Dont Have an Account? Register!">
 						</form>
 

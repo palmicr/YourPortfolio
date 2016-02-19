@@ -43,9 +43,9 @@
 			<div id="main">
 
 				<!-- Home -->
-					<section id="top" class="one dark cover" style='background-image: url("<?php include "php/randimg.php"; ?>")'>
+					<section id="top" class="one dark cover" style='background-image: url("<?php include "include/randimg.php"; ?>")'>
 						<?php 
-							include "php/intro.php";
+							include "include/intro.php";
 			 			?>
 					</section>
 
@@ -124,7 +124,7 @@
 					<!-- Contact -->
 
 					<?php 
-						include "php/sign.php";
+						include "include/sign.php";
 			 		?>
 					
 			</div>
@@ -132,7 +132,7 @@
 			
 		<!-- Footer -->
 			<?php 
-				include "php/footer.php";
+				include "include/footer.php";
 			 ?>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
