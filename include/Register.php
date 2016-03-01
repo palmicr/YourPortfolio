@@ -42,29 +42,35 @@
 							<form name='registration' onSubmit="return formValidation();" action="" method="post" accept-charset="utf-8">  
 							<ul>  
 							<li><label for="userid">User Name:</label></li>  
-							<li><input type="text" name="userid" size="12" /></li>  
+								<li><input type="text" name="userid" size="12" /></li>  
 							<li><label for="passid">Password:</label></li>  
-							<li><input type="password" name="passid" size="12" /></li>  
+								<li><input type="password" name="passid" size="12" /></li>  
 							<li><label for="username">Name:</label></li>  
-							<li><input type="text" name="username" size="50" /></li>  
+								<li><input type="text" name="username" size="50" /></li>  
 							 
 							<li><label for="country">Continent :</label></li>  
-							<li><select name="country">  
-							<option selected="" value="Default">(Please select a continent)</option>  
-							<option value="AF">Australia</option>  
-							<option value="AL">Europe</option>  
-							<option value="DZ">Asia</option>    
-							<option value="AD">USA</option>  
-							</select></li>  
+							<li>
+							<select name="country">  
+								<option selected="" value="Default">(Please select a continent)</option>  
+									<option value="AF">Australia</option>  
+									<option value="AL">Europe</option>  
+									<option value="DZ">Asia</option>    
+									<option value="AD">USA</option>  
+							</select>
+							</li>  
 							
 							<li><label for="email">Email:</label></li>  
-							<li><input type="text" name="email" size="50" /></li>  
+								<li><input type="text" name="email" size="50" /></li>  
 							<li><label id="gender">Sex:</label></li>  
-							<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>  
-							<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>  
+								<li>
+									<input type="radio" name="msex" value="Male" /><span>Male</span> 
+									<input type="radio" name="fsex" value="Female" /><span>Female</span>
+								</li>  
 							<li><label>Language:</label></li>  
-							<li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>  
-							<li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>  
+								<li>
+									<input type="checkbox" name="en" value="en" checked /><span>English</span>  
+									<input type="checkbox" name="nonen" value="noen" /><span>Non English</span>
+								</li>  
 							<li><label for="desc">About You:</label></li>  
 							<li><textarea name="desc" id="desc"></textarea></li>  
 							<div class="g-recaptcha" data-sitekey="6LfpbxgTAAAAAIWRy8__wKTkt4Ai0YcZ8kx8iHi1"></div>
