@@ -8,27 +8,22 @@ var ucountry = document.registration.country;
 var uzip = document.registration.zip;  
 var uemail = document.registration.email;  
 var umsex = document.registration.msex;  
-var ufsex = document.registration.fsex; if(userid_validation(uid,5,12))  
+var ufsex = document.registration.fsex; 
+if(userid_validation(uid,5,12))  
 {  
 if(passid_validation(passid,7,12))  
 {  
 if(allLetter(uname))  
-{  
-if(alphanumeric(uadd))  
 {   
 if(countryselect(ucountry))  
-{  
-if(allnumeric(uzip))  
 {  
 if(ValidateEmail(uemail))  
 {  
 if(validsex(umsex,ufsex))  
 {  
 }  
-}   
-}  
-}   
-}  
+}    
+}    
 }  
 }  
 }  
@@ -39,7 +34,7 @@ return false;
 var uid_len = uid.value.length;  
 if (uid_len == 0 || uid_len >= my || uid_len < mx)  
 {  
-alert("User Id should not be empty / length be between "+mx+" to "+my);  
+alert("User Name should not be empty / length be between "+mx+" to "+my);  
 uid.focus();  
 return false;  
 }  
@@ -70,20 +65,6 @@ uname.focus();
 return false;  
 }  
 }  
-function alphanumeric(uadd)  
-{   
-var letters = /^[0-9a-zA-Z]+$/;  
-if(uadd.value.match(letters))  
-{  
-return true;  
-}  
-else  
-{  
-alert('User address must have alphanumeric characters only');  
-uadd.focus();  
-return false;  
-}  
-}  
 function countryselect(ucountry)  
 {  
 if(ucountry.value == "Default")  
@@ -95,20 +76,6 @@ return false;
 else  
 {  
 return true;  
-}  
-}  
-function allnumeric(uzip)  
-{   
-var numbers = /^[0-9]+$/;  
-if(uzip.value.match(numbers))  
-{  
-return true;  
-}  
-else  
-{  
-alert('ZIP code must have numeric characters only');  
-uzip.focus();  
-return false;  
 }  
 }  
 function ValidateEmail(uemail)  
@@ -144,7 +111,7 @@ return false;
 else  
 {  
 alert('Form Succesfully Submitted');  
-window.location.reload()  
+window.location="../index.html.php#login";
 return true;  
 }  
 }  
