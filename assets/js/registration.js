@@ -60,7 +60,7 @@ return true;
 }  
 else  
 {  
-alert('Username must have alphabet characters only');  
+alert('Your Name must have alphabet characters only');  
 uname.focus();  
 return false;  
 }  

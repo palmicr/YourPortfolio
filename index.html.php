@@ -27,7 +27,7 @@
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#login" id="login-link" class="skel-layers-ignoreHref"><span class="icon fa-unlock-alt">Sign In</span></a></li>
+								<li><a href="#login" id="login-link" class="skel-layers-ignoreHref"><span class="icon fa-sign-in">Sign In</span></a></li>
 							</ul>
 						</nav>
 

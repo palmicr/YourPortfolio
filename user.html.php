@@ -1,6 +1,6 @@
 <?php
 # use keyword must be declared at the top level of a script. It cannot be nested inside a conditional statement.
-use assets\php\file_upload; # declaration, so you can refer to the class as Upload rather than using the fully qualified name
+use php\file_upload; # declaration, so you can refer to the class as Upload rather than using the fully qualified name
 
 if (isset($_POST['upload'])) {
     
@@ -10,7 +10,7 @@ if (isset($_POST['upload'])) {
     // define the path to the upload folder
     $destination = $_SERVER['DOCUMENT_ROOT'] . "/2t/2603982299/VEF2A3U/User/images/";  # Þú þarft að breyta slóð.
     // svo við getum notað class með t.d. move() fallið og getMessage() ogsfrv...
-    require_once 'assets/php/file_upload.php';
+    require_once 'php/file_upload.php';
     // Because the object might throw an exception
     try {
         // búum til upload object til notkunar.  Sendum argument eða slóðina að upload möppunni sem á að geyma skrá
@@ -56,6 +56,8 @@ if (isset($_POST['upload'])) {
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#upload" id="upload-link" class="skel-layers-ignoreHref"><span class="icon fa-upload">Upload</span></a></li>
+								<li><a href="#" id="logout-link" class="skel-layers-ignoreHref"><span class="icon fa-sign-out">Sign Out</span></a></li>
+
 							</ul>
 						</nav>
 

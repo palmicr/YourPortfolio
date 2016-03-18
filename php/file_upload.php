@@ -55,11 +55,24 @@ class Upload {
 
         # test the file, before upload
         # The $this keyword is also used to call functions (methods) defined within the class. (sama og Upload->checkFile())
-        if ($this->checkFile($uploaded)) {
-            
-            # upload file
-            $this->moveFile($uploaded);
-        }
+        if (is_array($uploaded["name"])) {
+
+            foreach ($uploaded['name'] as $key => $value) {
+            $currentFile['name'] = $uploaded['name'][$key];
+            $currentFile['type'] = $uploaded['type'][$key];
+            $currentFile['tmp_name'] = $uploaded['tmp_name'][$key];
+            $currentFile['error'] = $uploaded['error'][$key];
+            $currentFile['size'] = $uploaded['size'][$key];
+            if ($this->checkFile($currentFile)) {
+            $this->moveFile($currentFile);
+            }
+         }
+
+            } else {
+                if ($this->checkFile($uploaded)) {
+                $this->moveFile($uploaded);
+                }
+            }
     }
 
  
