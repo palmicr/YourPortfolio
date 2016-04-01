@@ -1,3 +1,27 @@
+<?php
+$errors = [];
+
+if (isset($_POST['register'])) {
+    $firstname = trim($_POST['username']);
+    $email = trim($_POST['email']);
+    $username = trim($_POST['userid']);
+    $password = trim($_POST['passid']);
+
+    require_once 'php/connection.php';
+    require_once 'php/Users.php';
+
+    $dbUsers = new Users($conn);
+    $status = $dbUsers->newUser($firstname,$email,$username,$password);
+
+    if ($status) {
+        $success = "$username has been registered. You may now log in.";
+    }else{
+        $errors[] = "$username is already in use. Please choose another username.";
+    } 
+}
+
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -35,6 +59,18 @@
 					<section id="contact1" class="four">
 						<div class="container">
 
+							<?php
+							if (isset($success)) {
+							    echo "<p>$success</p>";
+							} elseif (isset($errors) && !empty($errors)) {
+							    echo '<ul>';
+							    foreach ($errors as $error) {
+							        echo "<li>$error</li>";
+							    }
+							    echo '</ul>';
+							}else{
+							?>
+
 							<header>
 								<h2>Create a Free Account</h2>
 							</header>
@@ -43,17 +79,16 @@
 							<ul>  
 							<li>
 								<label for="userid">User Name:</label>
-								<input type="text" name="userid" size="12" />
+								<input type="text" name="userid" id="userid" size="12" />
 								</li>  
 							<li>
 								<label for="passid">Password:</label> 
-								<input type="password" name="passid" size="12" />
+								<input type="password" name="passid" id="passid" size="12" />
 							</li>  
 							<li>
 								<label for="username">Name:</label> 
-								<input type="text" name="username" size="50" />
+								<input type="text" name="username" id="username" size="50" />
 							</li>  
-							 
 							<li>
 								<label for="country">Continent :</label>
 							</li>  
@@ -69,7 +104,7 @@
 							
 							<li>
 								<label for="email">Email:</label>  
-								<input type="text" name="email" size="50" />
+								<input type="text" name="email" id="email" size="50" />
 							</li>  
 							<li>
 							<label id="gender">Sex:</label>  
@@ -111,5 +146,6 @@
 			<script src='https://www.google.com/recaptcha/api.js'></script>
 			<script src="assets/js/"></script>
 			<script src="../assets/js/registration.js"></script>
-
+<?php } ?>
 </body>
+</html>

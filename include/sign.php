@@ -5,7 +5,7 @@
 								<h2>Login</h2>
 							</header>
 
-							<form name="login" action="" method="post" accept-charset="utf-8">
+							<form name="login" action="php/checklogin.php" method="post" accept-charset="utf-8">
 				
 							<ul>
 								<li>

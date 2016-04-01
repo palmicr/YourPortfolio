@@ -111,7 +111,7 @@ return false;
 else  
 {  
 alert('Form Succesfully Submitted');  
-window.location="../index.html.php#login";
+window.location="../php/InsertMedlimur.php";
 return true;  
 }  
 }  
